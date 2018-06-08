@@ -7,6 +7,15 @@ public class Person implements Serializable{
     private  String password;
     private  String sex;
     private  String year;
+    private  Integer old;
+
+    public Integer getOld() {
+        return old;
+    }
+
+    public void setOld(Integer old) {
+        this.old = old;
+    }
 
     public String getName() {
         return name;
