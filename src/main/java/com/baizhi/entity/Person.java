@@ -2,11 +2,18 @@ package com.baizhi.entity;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
 public class Person implements Serializable{
     private  String name;
     private  String password;
     private  String sex;
     private  String year;
+=======
+public class Person implements Serializable {
+    private  String name;
+    private  String sex;
+    private  String age;
+>>>>>>> origin/master
 
     public String getName() {
         return name;
@@ -16,6 +23,7 @@ public class Person implements Serializable{
         this.name = name;
     }
 
+<<<<<<< HEAD
     public String getPassword() {
         return password;
     }
@@ -24,6 +32,8 @@ public class Person implements Serializable{
         this.password = password;
     }
 
+=======
+>>>>>>> origin/master
     public String getSex() {
         return sex;
     }
