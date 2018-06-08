@@ -22,6 +22,14 @@ public class UserModel implements Serializable {
         this.num = num;
     }
 
+    public UserModel(String name, Integer num) {
+        this.name = name;
+        this.num = num;
+    }
+
+    public UserModel() {
+    }
+
     @Override
     public String toString() {
         return "UserModel{" +
